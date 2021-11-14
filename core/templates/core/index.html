@@ -1,0 +1,21 @@
+{% extends "core/includes/base.html"%}
+{% load static %}
+{% block main %}
+<div class="card" id="car_index">
+  <div class="card-header">
+
+    <h4> API - De Cadastro de Produtos e Fornecedores </h4>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Bem vindo ao projeto De Cadastro de Produtos e Fornecedores</h5><br>
+    <p>Modulo de cadastro de produtos e fornecedores.</p>
+    <div><img src="{% static 'img/emAndamento.png' %}" id="em_andamento">
+      <h5 style="color:green;">Em execução</h5>
+    </div>
+    Ferramentas: Linguagem de programação Python, framework Django, banco de dado Postgresql e
+    hospedagem no Heroku</p>
+  </div>
+</div>
+
+
+{% endblock %}
